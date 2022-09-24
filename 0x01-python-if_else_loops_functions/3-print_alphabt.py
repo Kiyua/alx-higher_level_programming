@@ -2,4 +2,4 @@
 alphabet = ""
 for i in range(ord('a'), ord('z') + 1):
     if chr(i) != 'e' and chr(i) != 'q':
-        print(f"{chr(i)}", end="")
+        print("{}".format(chr(i)), end="")
