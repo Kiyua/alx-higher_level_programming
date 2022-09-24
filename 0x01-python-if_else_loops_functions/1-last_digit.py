@@ -3,7 +3,7 @@ import random
 number = random.randint(-1000, 1000)
 last = number % 10
 if number < 0:
-    last = -1 * (number % -10)
+    last = number % -10
 else:
     last = number % 10
 print("Last Digit of {} is {} and is ".format(number, last), end="")
